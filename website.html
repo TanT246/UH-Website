@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles.css"> 
+        <title>UH website</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="images/uh_white_red.png" class="uh-logo"/>
+            <ul class="nav-links">
+                <li class="active"><a href="#"></a>Home</li>
+                <li><a href="#"></a>Academics</li>
+                <li><a href="#"></a>Admission</li>
+                <li><a href="#"></a>Campus Life</li>
+                <li><a href="#"></a>News & Events</li>
+                <li class="ctn"><a href="#"></a>Contact</li>
+            </ul>
+            <img src="images/hamburger-icon.png" alt="" class="menu-btn"/>
+        </div>
+
+        <header>
+            <div class="header-content">
+                <h1>University of Houston</h2>
+                <div class="line"></div>
+                <h2>Not just any University</h2>
+                <h1>It's THE Houston's University</h1>
+                <a href="#" class="ctn">Explore Campus</a>
+            </div>
+        </header>
+
+        <section class="events">
+            <div class="title">
+                <h1>Featured Stories</h1>
+                <div class="line"></div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <img src="images/news1.jpg" alt="Pro-life or pro-choice"/>
+                    <a href="#"><h4>New Survey Examines Status of Abortion Laws in Texas, California, Arizona</h4></a>
+                    <p>The U.S. held a clear national abortion policy for 52 years. Yet, the Surpreme Court ruling turned decision power over to the states. A new survey examines the current status quo on the issue on three different states: liberal California, mixed Arizona, conservative Texas.
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="images/news2.png" alt="Pro-life or pro-choice"/>
+                    <a href="#"><h4>Study: Wildfire Smoke Downwind Affects Health, Wealth, and Mortality</h4></a>
+                    <p>Study finds smoke particulates could lead to thousands of premature deaths and cost billions per year in the United States. Researchers looked at wildfire effects in cities stretching from New York to California.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="explore">
+            <div class="explore-content">
+                <h1>Explore Campus Life</h1>
+                <div class="line"></div>
+                <p>The University of Houston offers various opportunities for you to to get involved experience campus life, which includes the students, museumsn, public arts, library, and more.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="explore-image">
+                <img src ="studentlife1.jpg">
+            </div>
+        </section>
+
+        <section class="tours">
+            <div class="uh-description">
+                <h1>UH INITIATIVES</h1>
+                <p>The University of Houston is a powerhouse of innovation. UH has grown to service the city of Houston and beyond through our extensive educational offerings, partnerships with local businesses and contributions to the community. Explore more below about how we are cultivating the future through Energy, Health, Arts, and Athletics to create success for our students and alumni.</p>
+            </div>
+
+            <div class="info">
+                <div class="uh-info">
+                   <a href="#"> <img src="https://www.uh.edu/_homepage-images/icon-arts.svg"></a>
+                    <h2>Arts</h2>
+                    <p>UH Arts provide students the fuel to awaken the imagination and contribute real art to the real world. Read how students use their experiences and thoughts to ignite the imagination.</p>
+                </div>
+                <div class="uh-info">
+                    <a href="#"> <img src="https://www.uh.edu/_homepage-images/icon-athletics.svg"></a>
+                     <h2>Atheltics</h2>
+                     <p>UH Athletics is driving sportsmanship to new levels by preparing student-athletes to be champions for life. Read about how student-athletes are achieving success in academics and athletics.</p>
+                </div>
+                <div class="uh-info">
+                    <a href="#"> <img src="https://www.uh.edu/_homepage-images/icon-energy.svg"></a>
+                    <h2>Energy</h2>
+                    <p>UH Energy performs innovative research to address emerging needs in the hydrocarbons, renewables and sustainability energy sectors. Read about how UH energy fuels the industry.
+                    </p>
+                </div>
+                <div class="uh-info">
+                    <a href="#"> <img src="https://www.uh.edu/_homepage-images/icon-studentsuccess.svg"></a>
+                    <h2>Student Success</h2>
+                    <p>UH students have access to comprehensive higher education programs and countless resources providing the tools for success. Read about how students are thriving at the University of Houston.</p>
+                </div>
+                <div class="uh-info">
+                    <a href="#"> <img src="https://www.uh.edu/_homepage-images/hand-shake-line.svg"></a>
+                    <h2>Third Ward</h2>
+                    <p>As a good neighbor and university dedicated to civic engagement, we will partner and collaborate with the Third Ward to transform its schools, businesses, and healthcare resources. We celebrate the culture and history of our shared community.</p>
+                </div>
+                <div class="uh-info">
+                    <a href="#"> <img src="https://www.uh.edu/_homepage-images/icon-pop-health.svg"></a>
+                    <h2>Population Health</h2>
+                    <p>UH Population Health is a first-of-its-kind university-wide initiative to build healthier communities and a stronger society by addressing the full range of factors that affect health.</p>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <p>@2023 University of Houston. All rights reserved.</p>
+        
+    </footer>
+        <script>
+            const menuBtn= document.querySelector('.menu-btn')
+            const navLinks= document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navLinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+</html>
